@@ -30,7 +30,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 registerRoute(
 ({ request }) => request.destination === 'image',
 new CacheFirst({
-  cacheName: 'catching-assets',
+  cacheName: 'assets',
   plugins: [
     new CacheableResponsePlugin({
       statuses: [0, 200],
