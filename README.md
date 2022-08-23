@@ -28,7 +28,7 @@ Here is the
 <br>
 
 `Here is the ServiceWorker for the app`
-![Preview](./image/serviceWorker.png)
+![Preview](./image/serviceworker.png)
 
 `Here is the offline capability for the app`
 ![Preview](./image/offline.png)
